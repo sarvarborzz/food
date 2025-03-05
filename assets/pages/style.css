@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #eaffec;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+  z-index: 100;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #069315;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #069315;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.auth-buttons a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.login {
+  color: #069315;
+  border: 1px solid #069315;
+}
+
+.login:hover {
+  background-color: #069315;
+  color: white;
+}
+
+.signup {
+  background-color: #069315;
+  color: white;
+}
+
+.signup:hover {
+  background-color: #056b10;
+}
+
+/* Home Section */
+main {
+  background-color: #eaffec;
+}
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 80px;
+  background-color: #eaffec;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.text {
+  max-width: 500px;
+}
+
+.text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #232020;
+}
+
+.text p {
+  font-size: 18px;
+  color: #5a5a5a;
+  margin: 20px 0;
+}
+
+.order-btn {
+  padding: 12px 24px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #069315;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.order-btn:hover {
+  background-color: #056b10;
+}
+
+.image img {
+  width: 500px;
+  height: auto;
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+}
+
+/* food-card */
+.food-menu {
+  background-color: #eaffec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  position: relative;
+}
+
+.food-menu .text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.food-menu .text h1 {
+  font-size: 84px;
+  font-weight: 900;
+  font-family: "Moul", sans-serif;
+}
+
+.food-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.food-card {
+  background-color: #66ff00;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding-top: 50px;
+  transition: 0.10s linear;
+}
+
+.food-card:hover {
+    background-color: #ffaa00;
+}
+.food-card img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+
+.exit .container {
+  text-align: center;
+  background-color: #eaffec;
+  padding-bottom: 50px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.exit .container .class a {
+  padding: 10px 30px;
+  background-color: #66ff00;
+  text-decoration: none;
+  color: #fff;
+  font-family: "moul" , sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: 0.2s linear;
+}
+.exit .container .class a:hover {
+  background-color: red;
+}
+
